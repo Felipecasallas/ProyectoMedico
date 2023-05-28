@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+:root {
+
+    
+    --colorbotones: #1D93B0;
+    --colorfondo: #C0FFEA ;
+    --paddingsecciones: 60px 0;
+    --margineelementos: 40px;
+
+
+}
+
+.contenedor{
+    width: 90%;     /* a pagina tendra el 90 % de ancho*/
+    max-width: 1200px;   /* pero que no sobrepase los 1200px*/
+    margin: auto;            
+    overflow: hidden;    /* todo lo que rebace el contenedor o va a ocultar*/
+    padding: var(--paddingsecciones);
+
+}
+
+.menu-navegacion{
+    padding: 0;   /* no queremos que el padding general tenga un padding 0*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centrar arriba hacia abajo */
+    height: 70px;
+    
+
+}
+
+.logo{
+    height: 70px;
+    align-items: center;
+
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+}
+
+.enlaces li {
+    list-style: none; /* para quitar los estilos de la lista*/
+    display: inline-block; /* para poner la lista uno a lado del otro */
+    padding-left: 20px;
+
+}
+
+.enlaces a {
+    color: #1642A9  ;
+}
+
+.hero {
+    height: 500px;
+    background-image: url("../ProyectoMedico/imagenes/pexels-karolina-grabowska-4021779.jpg");
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.hero h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+.contenedor-textos {
+    padding:0 ; /* no queremos que el padding general tenga un padding 0*/
+    height: 100%; 
+    display: flex;
+    flex-direction: column; /* para que los elementos esten uno debajo del otro*/
+    align-items: center; /* centrar dentro del contenido*/
+    justify-content: center;
+}
+
+.boton {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: #1E62FF ;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+header {
+    background-color: #B9CCFF  ;
+}
+
+nav li{
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+/* main*/
+
+.titulo-secundario{
+    text-align: center;
+    font-size: 35px;
+    color: #1642A9;
+    padding: 40px 0 0;
+
+}
+
+.copy{
+    text-align: center;
+    color: black ;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.beneficios {
+    padding-top: var(--margineelementos);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.beneficio {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url("../ProyectoMedico/imagenes/pexels-negative-space-48604.jpg");
+    background-size: cover;
+    background-position: center;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

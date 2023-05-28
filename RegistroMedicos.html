@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleMedicos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Formulario de Medicos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Clinica San Andres</h1>
+    </header>
+    <main>
+        <form id="registro-medicos-form">
+            <h2>Registro de Medicos</h2>
+            <label for="nombre">Nombre:<span> *</span></label>
+            <input class="controls" type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:<span> *</span></label>
+            <input class="controls" type="text" id="apellido" name="apellido" required>
+            <label for="cedula">Número de Cédula:<span> *</span></label>
+            <input class="controls" type="text" id="cedula" name="cedula" required>
+            <label for="consultorio">Número de consultorio:<span> *</span></label>
+            <input class="controls" type="number" id="consultorio" name="consultorio" required>
+            <label for="telefono">Telefono:<span> *</span></label>
+            <input class="controls" type="tel" id="telefono" name="telefono" required>
+            <label for="correo">Correo de contacto:<span> *</span></label>
+            <input class="controls" type="email" id="correo" name="correo" required>
+            <label for="especialidad">Especialidad requerida:<span> *</span></label>
+            <select id="especialidad" name="especialidad">
+                <option value="">------------------------  Seleccione la especialidad  ---------------------</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Cardiologia">Cardiologia</option>
+                <option value="Medicina interna">Medicina Interna</option>
+                <option value="Dermatología ">Dermatología</option>
+                <option value="Psicologia">Psicologia</option>
+                <option value="Reabilitacion Fisica">Reabilitacion Fisica</option>
+                <option value="Odontología ">Odontología </option>
+                <option value="Radiologia">Radiologia</option>
+            </select>
+            <input class="botons" type="submit" value="Enviar">
+            <input class="botons" type="button" id="botonVolver" value="Volver">
+        </form>
+    </main>
+    <script src="volver.js"></script>
+    <script src="GuardarMedicos.js"></script>
+
+</body>
+
+</html>

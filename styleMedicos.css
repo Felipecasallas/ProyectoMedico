@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #B9CCFF 
+}
+
+
+header h1{
+    text-align: center;
+    color: #1642A9 ;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+form{
+    width: 600px;
+    background: #24303c;
+    padding: 40px;
+    margin: auto;
+    border-radius: 8px;
+    color: azure;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+
+form h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+form label{
+    line-height: 40px;
+}
+
+.controls{
+    width: 100%;
+    background:  #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    border: 2px solid #1f53c5;
+    font-size: 19px;
+    color: azure;
+}
+
+form select{
+    padding: auto;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    width: auto;
+    margin-block: 3px 16px;
+}
+
+.botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: azure;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 6px;  
+}
+
+/*listas*/
+.volver-logo{
+    height: 70px;
+    align-items: center;
+}
+
+.volver-logo img {
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 22px;
+    
+
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    border: 5px solid #1f53c5;
+    background-color: #1f53c5;
+
+
+}
+
+td {
+    color: #fff;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tabla-container {
+    margin: 150px auto;
+    width: 1200px;
+}
+.listado-container {
+    max-width: 70%;
+}
+
+.boton-container{
+    margin-block: 40px;
+}
+
+input[type="submit"], input[type="button"] {
+    width: 100%;
+    background-color: #1f53c5;
+    color: white;
+    border: 1px solid #7399ff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    
+
+}
